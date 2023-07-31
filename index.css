@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  main {
+    flex: 0.08;
+    background-color: silver;
+    display: flex; /* Adicionado */
+    justify-content: center;
+    align-items: center; /* Opcional: alinha verticalmente o conteúdo */
+    letter-spacing: 10px;
+    font-size: 130%;
+    border: 2px solid black;
+  }
+  
+  div {
+    flex: 1;
+    background-color: white;
+    display: flex; /* Adicionado */
+    flex-direction: column;
+    color: black;
+    font-size: 150%;
+    gap: 8%;
+    justify-content: center;
+    align-items: center; /* Opcional: alinha verticalmente o conteúdo */
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    letter-spacing: 10px;
+  }
+  
+  footer {
+    flex: 0.06;
+    background-color: silver;
+    display: flex; /* Adicionado */
+    justify-content: center; /* Adicionado */
+    align-items: center; /* Opcional: alinha verticalmente o conteúdo */
+    letter-spacing: 10px;
+    border: 2px solid black;
+  }
+  
